@@ -1,0 +1,3 @@
+New note created:
+POST->https://studies.cs.helsinki.fi/exampleapp/new_note_spa, 201 Created
+Renders without requesting the page again.

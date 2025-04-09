@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1hdW5vbWF0byIsImlkIjoiNjc3ZWI0NjU2Y2I0MmM4NDI2ODQ1N2M5IiwiaWF0IjoxNzM2MzYxMDk5fQ.KVOtZoHB02TJfJbXo2Ikzg5M3nhdAzoiV8Vv4PCVIZ4
+
+{
+    "title": "Fishing with token",
+    "author": "Mauno Ampiapi",
+    "url": "http://localhost:3003/api/blogs",
+    "likes": 5,
+    "userId": "677eb4656cb42c84268457c9"
+}

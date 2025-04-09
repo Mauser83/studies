@@ -1,0 +1,64 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "040-123456",
+      "id": "1"
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": "2"
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": "3"
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": "4"
+    },
+    {
+      "name": "Mauno Mato",
+      "number": "040030300300",
+      "id": "5"
+    },
+    {
+      "id": "6",
+      "name": "Heikki Hela",
+      "number": "40393919129"
+    },
+    {
+      "id": "7",
+      "name": "Kaija Kala",
+      "number": "01 03 040504"
+    },
+    {
+      "id": "8",
+      "name": "Hannu Hanhi",
+      "number": "313-313313"
+    },
+    {
+      "id": "9",
+      "name": "Kaarina Katu",
+      "number": "01-98765564"
+    },
+    {
+      "id": "10",
+      "name": "Maisa Mestari",
+      "number": "040-4040404040"
+    },
+    {
+      "id": "11",
+      "name": "Arttu Alalala",
+      "number": "01-23456789"
+    },
+    {
+      "id": "12",
+      "name": "Hanhi Kaukalo",
+      "number": "12-34-56"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+request the HTML-file:
+GET->https://studies.cs.helsinki.fi/exampleapp/spa, 200 OK
+HTML requests CSS-file:
+GET->https://studies.cs.helsinki.fi/exampleapp/main.css, 200 OK
+HTML requests JS-file:
+GET->https://studies.cs.helsinki.fi/exampleapp/spa.js, 200 OK
+Javascript did run and requests JSON-file:
+GET->https://studies.cs.helsinki.fi/exampleapp/data.json, 200 OK
+Render the notes

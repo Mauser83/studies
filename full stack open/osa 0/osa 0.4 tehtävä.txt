@@ -1,0 +1,11 @@
+new note saved:
+POST->https://studies.cs.helsinki.fi/exampleapp/new_note, 302 OK
+redirects back to notes-page:
+GET->https://studies.cs.helsinki.fi/exampleapp/notes, 200 OK
+HTML requests CSS-file:
+GET->https://studies.cs.helsinki.fi/exampleapp/main.css, 200 OK
+HTML requests JS-file:
+GET->https://studies.cs.helsinki.fi/exampleapp/main.js, 200 OK
+Javascript did run and it requests JSON-file:
+GET->https://studies.cs.helsinki.fi/exampleapp/data.json, 200 OK
+Renders all the notes including the new note.

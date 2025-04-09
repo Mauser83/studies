@@ -1,0 +1,1 @@
+määrittelee, että jos selaimen -->osoiteena<-- on /notes, renderöidään komponentti Notes.
