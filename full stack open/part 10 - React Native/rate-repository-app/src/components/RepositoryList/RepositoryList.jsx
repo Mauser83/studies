@@ -71,7 +71,7 @@ export const RepositoryListContainer = ({ repositories }) => {
       data={repositoryNodes}
       ItemSeparatorComponent={ItemSeparator}
       renderItem={({ item, index }) => {
-        return <RepositoryItem key={index} item={item} />;
+        return <RepositoryItem key={index} item={item} singleView={false}/>;
       }}
     />
   );

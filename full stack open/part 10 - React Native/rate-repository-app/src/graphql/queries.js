@@ -15,6 +15,17 @@ export const GET_REPOSITORIES = gql`
   ${REPOSITORY_FRAGMENT}
 `;
 
+export const GET_REPOSITORY = gql`
+  query Repository($repositoryId: ID!) {
+    repository(id: $repositoryId) {
+      ...RepositoryFragment
+      url
+    }
+  }
+
+  ${REPOSITORY_FRAGMENT}
+`;
+
 export const GET_USER = gql`
   query {
     me {

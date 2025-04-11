@@ -4,6 +4,7 @@ import { useQuery } from "@apollo/client";
 
 import AppBar from "./AppBar/AppBar";
 import RepositoryList from "./RepositoryList/RepositoryList";
+import RepositoryItem from "./RepositoryList/RepositoryItem";
 import SignIn from "./SignIn/SignIn";
 import { GET_USER } from "../graphql/queries";
 import theme from "./theme";
@@ -35,6 +36,7 @@ const Main = () => {
         <AppBar user={user}/>
         <Routes>
           <Route path="/repositories" element={<RepositoryList />} />
+          <Route path="/repositories/:repositoryId" element={<RepositoryItem singleView={true}/>} />
           <Route path="signin" element={<SignIn />} />
           <Route path="*" element={<Navigate to="/repositories" replace />} />
         </Routes>
